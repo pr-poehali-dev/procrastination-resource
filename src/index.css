@@ -97,5 +97,40 @@
 
   body {
     @apply bg-background text-foreground;
+    font-family: "Golos Text", sans-serif;
+  }
+
+  /* Info card backgrounds */
+  [style*="--card-bg-0"] {
+    background: linear-gradient(
+      135deg,
+      rgba(124, 58, 237, 0.15),
+      rgba(79, 70, 229, 0.1)
+    ) !important;
+    border-color: rgba(124, 58, 237, 0.25) !important;
+  }
+  [style*="--card-bg-1"] {
+    background: linear-gradient(
+      135deg,
+      rgba(249, 115, 22, 0.15),
+      rgba(239, 68, 68, 0.1)
+    ) !important;
+    border-color: rgba(249, 115, 22, 0.25) !important;
+  }
+  [style*="--card-bg-2"] {
+    background: linear-gradient(
+      135deg,
+      rgba(16, 185, 129, 0.15),
+      rgba(20, 184, 166, 0.1)
+    ) !important;
+    border-color: rgba(16, 185, 129, 0.25) !important;
+  }
+  [style*="--card-bg-3"] {
+    background: linear-gradient(
+      135deg,
+      rgba(14, 165, 233, 0.15),
+      rgba(59, 130, 246, 0.1)
+    ) !important;
+    border-color: rgba(14, 165, 233, 0.25) !important;
   }
 }
